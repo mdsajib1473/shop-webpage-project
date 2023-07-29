@@ -1,3 +1,14 @@
+@media screen and (max-width:800px){
+    .grid-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (max-width:700px){
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
 /* Responsive styles Smaller devices */
 @media screen and (max-width:400px) {
 
@@ -41,4 +52,8 @@
     }
 
     /* products related */
+    .grid-container{  
+        grid-template-columns: 1fr;
+  
+    }
 }
